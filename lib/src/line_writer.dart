@@ -153,7 +153,7 @@ class LineWriter {
 
     // Write the indentation of the first line.
     if (!flushLeft) {
-      _buffer.write(' ' * (indent + _blockIndentation));
+      _buffer.write('  ' * (indent + _blockIndentation));
     }
 
     // Write each chunk with the appropriate splits between them.
